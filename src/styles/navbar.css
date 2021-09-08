@@ -1,0 +1,23 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container h1 {
+  width: 22%;
+  cursor: pointer;
+}
+nav .container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 74%;
+}
+nav .container ul li {
+  cursor: pointer;
+}
